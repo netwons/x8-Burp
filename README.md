@@ -61,6 +61,14 @@ As this is a wrapper, a [precompiled binary](https://github.com/Sh1Yo/x8/release
         ```bash
         Burp -> Extender -> ./x8-Burp/linux_x8.py
         ```
+        If you encounter this error on Ubuntu 22.2 or later
+        ‍‍```./x8: error while loading shared libraries: libssl.so.1.1
+        ```
+        ### wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.0g-2ubuntu4_amd64.deb
+        ### sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2.19_amd64.deb
+        ### sudo apt -f install
+        ### ls /usr/lib/x86_64-linux-gnu/ | grep libssl
+
 - Windows
     - from releases
         ```bash
