@@ -65,6 +65,7 @@ As this is a wrapper, a [precompiled binary](https://github.com/Sh1Yo/x8/release
       
         ‍‍```bash
            Error   ./x8: error while loading shared libraries: libssl.so.1.1
+      
          ```
         ### wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.0g-2ubuntu4_amd64.deb
         ### sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2.19_amd64.deb
